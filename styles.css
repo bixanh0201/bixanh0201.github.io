@@ -1,3 +1,19 @@
-#gmailLabel {
-    font-size: 40;
+#gmailLabel, #passwordLabel {
+    font-size: 20;
+    font-family: Arial;
+}
+
+#gmailInput, #passwordInput {
+    width: 400;
+    height: 25;
+    font-size: 20;
+    font-family: Arial;
+    border: 0.5px solid black;
+}
+
+#confrimButton {
+    width: 200;
+    height: 40;
+    font-size: 20;
+    font-family: Arial;
 }
