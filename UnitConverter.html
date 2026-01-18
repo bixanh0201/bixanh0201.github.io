@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en"></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body>
+        <div id="widgetContanier">
+            Enter your input unit:<br><br>
+            <select id="inputUnit">
+                <option>Kilometers (km)</option>
+                <option>Meters (m)</option>
+                <option>Centimeters (cm)</option>
+                <option>Milimeters (mm)</option>
+            </select>
+            <br><br><br>
+            Enter your output unit:<br><br>
+            <select id="outputUnit">
+                <option>Kilometers (km)</option>
+                <option>Meters (m)</option>
+                <option>Centimeters (cm)</option>
+                <option>Milimeters (mm)</option>
+            </select>
+            <br><br><br>
+            <form id="inputValueForm">
+                Enter the number value of your input:<br><br>
+                <input type="number" id="inputInputValue">
+                <br><br>
+                <button type="reset" value="ResetInput">Reset input value</button>
+            </form>
+            <br><br><br>
+            <form id="outputValueForm">
+                Enter the number value of your output:<br><br>
+                <input type="number" id="outputInputValue">
+                <br><br>
+                <button type="reset" value="ResetOutput">Reset output value</button>
+            </form>
+            <br><br><br>
+            <button onclick="exchange()">Exchange</button>
+        </div>
+    </body>
+    <style>
+        body {
+            font-size: large;
+            font-family: Arial;
+            font-weight: bold;
+        }
+        select {
+            font-size: 20px;
+            font-family: Arial;
+            width: 400px;
+            height: 30px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        #widgetContanier {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px;
+            width: 500px;
+            margin: auto;
+            margin-top: 30px;
+        }
+        input {
+            font-size: 20px;
+            font-family: Arial;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px;
+            width: 200px;
+            height: 10px;
+        }
+        button {
+            font-size: 15px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        #inputValueForm {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        #outputValueForm {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px;
+        }
+    </style>
+    <script>
+        function exchange() {
+            null
+        }
+    </script>
+</html>
